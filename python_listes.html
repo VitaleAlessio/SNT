@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Python_ Cours 6_Listes_Tableaux</title>
+</head>
+<body>
+    <h1>Python_ Cours 6_Listes_Tableaux</h1>
+    <p>Une liste est une structure de données qui contient une série de valeurs.</p>
+
+    <pre>
+tab = [2, 3, 7, 10, 22]
+
+# On peut appeler les éléments d'une liste par leur position.
+# Exemple :
+print(tab[0])     # affiche 2
+print(tab[3])     # affiche 10
+
+# len() donne la taille de la liste
+print(len(tab))   # affiche 5
+
+# Listes mixtes :
+mixte = ["girafe", 5, "souris", 0.15]
+
+# Concaténation et répétition :
+ani1 = ["girafe", "tigre"]
+ani2 = ["singe", "souris"]
+print(ani1 + ani2)      # ['girafe', 'tigre', 'singe', 'souris']
+print(ani1 * 3)         # ['girafe', 'tigre', 'girafe', 'tigre', 'girafe', 'tigre']
+
+# Création d'une liste vide :
+a = []
+a = a + [15]
+print(a)                # [15]
+
+# Ajout avec append :
+a.append(13)
+print(a)                # [15, 13]
+    </pre>
+
+    <p><a href="index.html">← Retour à l'accueil</a></p>
+</body>
+</html>
